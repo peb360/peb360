@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Future of PEB in India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #00AEEF;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            background-color: #00AEEF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .back-link:hover {
+            background-color: #007ea7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>The Future of PEB in India</h1>
+
+    <p>The Pre-Engineered Building (PEB) industry in India has witnessed significant evolution over the past two decades. Earlier, traditional construction dominated the Indian landscape, but the need for faster project execution, cost efficiency, and sustainability led to the adoption of PEB solutions.</p>
+
+    <h2>The Past: How PEB Began in India</h2>
+    <p>In the early 2000s, PEBs were mostly utilized for industrial applications like warehouses and factories. Companies recognized the benefits of speed, flexibility, and lower costs. However, the market was initially small, estimated at around ₹6,000 crores in 2015.</p>
+
+    <h2>The Present and Rapid Growth</h2>
+    <p>Today, PEBs are no longer limited to factories. They are widely used in airports, commercial complexes, metro stations, malls, and even residential projects. The market size in 2024 is approximately ₹15,000 crores, showcasing strong growth fueled by urbanization, infrastructure investments, and demand for green buildings.</p>
+
+    <h2>PEB Market Growth Graph</h2>
+    <img src="peb_market_growth_india.png" alt="PEB Market Growth Graph">
+
+    <h2>The Future: What Lies Ahead</h2>
+    <p>By 2030, the PEB market in India is expected to reach nearly ₹28,000 crores. The adoption of advanced technologies like 3D modeling, BIM (Building Information Modeling), and sustainable materials will further accelerate the industry's growth. Sectors such as healthcare, education, sports facilities, and smart cities will increasingly incorporate PEB structures.</p>
+
+    <h2>Conclusion</h2>
+    <p>The journey of PEBs in India reflects a shift toward efficiency, innovation, and sustainability. From being a niche industrial solution to becoming a mainstream choice for diverse sectors, PEBs are poised to play a key role in India's infrastructure and economic development. With robust growth projections, improved quality standards, and increasing awareness, the future of PEB in India is not just promising but transformational.</p>
+
+    <a href="index.html" class="back-link">Back to Home</a>
+</div>
+
+</body>
+</html>
