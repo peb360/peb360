@@ -1,27 +1,140 @@
-<section id="articles" style="padding: 40px 20px; background-color:#f4f4f4;">
-    <h2 style="text-align:center; color:#00AEEF;">Latest Articles</h2>
-    <p style="text-align:center;">Explore the latest articles on Pre-Engineered Buildings, industry trends, and PEB-related topics. Stay informed and updated with our resources.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #00AEEF;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: #fff;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin: 15px;
+            text-align: center;
+        }
+        .card h3 {
+            color: #00AEEF;
+        }
+        .card a {
+            color: #00AEEF;
+            text-decoration: none;
+        }
+        .card p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        /* Modal Style */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
-        <!-- Article 1 -->
-        <div style="background-color:#fff; padding: 20px; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; text-align:center;">
-            <h3><a href="article1.html" style="color:#00AEEF; text-decoration:none;">The Future of PEB in India</a></h3>
+    <h1>Our Articles</h1>
+
+    <div class="container">
+        <!-- Article 1 Card -->
+        <div class="card">
+            <h3><a href="javascript:void(0)" onclick="openModal()">The Future of PEB in India</a></h3>
             <p>Discover the growing market and scope of Pre-Engineered Buildings in India, and what the future holds for the industry.</p>
-            <a href="article1.html" style="color:#00AEEF; text-decoration:none;">Read More</a>
+            <a href="javascript:void(0)" onclick="openModal()">Read More</a>
         </div>
 
-        <!-- Article 2 -->
-        <div style="background-color:#fff; padding: 20px; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; text-align:center;">
-            <h3><a href="article2.html" style="color:#00AEEF; text-decoration:none;">Sustainable Practices in PEB</a></h3>
+        <!-- Article 2 Card -->
+        <div class="card">
+            <h3><a href="article2.html">Sustainable Practices in PEB</a></h3>
             <p>Learn how sustainable practices are becoming integral in PEB construction and the impact on the environment.</p>
-            <a href="article2.html" style="color:#00AEEF; text-decoration:none;">Read More</a>
+            <a href="article2.html">Read More</a>
         </div>
 
-        <!-- Article 3 -->
-        <div style="background-color:#fff; padding: 20px; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; text-align:center;">
-            <h3><a href="article3.html" style="color:#00AEEF; text-decoration:none;">The Benefits of PEB for Commercial Buildings</a></h3>
+        <!-- Article 3 Card -->
+        <div class="card">
+            <h3><a href="article3.html">The Benefits of PEB for Commercial Buildings</a></h3>
             <p>Explore the key advantages of using Pre-Engineered Buildings for commercial construction projects.</p>
-            <a href="article3.html" style="color:#00AEEF; text-decoration:none;">Read More</a>
+            <a href="article3.html">Read More</a>
         </div>
     </div>
-</section>
+
+    <!-- Modal for Article 1 -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>The Future of PEB in India</h2>
+            <p>Pre-Engineered Buildings (PEB) are a growing sector in the Indian construction market. The future of PEB in India looks promising due to the country's increasing demand for fast, affordable, and sustainable construction solutions.</p>
+            <p>In recent years, PEBs have gained popularity because they offer cost-effective and efficient alternatives to traditional construction methods. As urbanization accelerates, industries like warehouses, factories, and commercial spaces are adopting PEB technology.</p>
+            <p>With the government's push towards infrastructure development, the demand for PEBs will continue to rise, making it one of the most important construction techniques in the coming decades.</p>
+        </div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Function to open the modal
+        function openModal() {
+            modal.style.display = "block";
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        // Close modal if clicked outside the modal content
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
